@@ -1,0 +1,12 @@
+Source: ros-foxy-grasping-msgs
+Section: misc
+Priority: optional
+Maintainer: Michael Ferguson <mfergs7@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-foxy-ament-cmake, ros-foxy-geometry-msgs, ros-foxy-moveit-msgs, ros-foxy-rosidl-default-generators, ros-foxy-sensor-msgs, ros-foxy-shape-msgs, ros-foxy-ros-workspace, ros-foxy-rosidl-typesupport-connext-c, ros-foxy-rosidl-typesupport-connext-cpp, ros-foxy-rosidl-typesupport-fastrtps-c, ros-foxy-rosidl-typesupport-fastrtps-cpp
+Homepage: http://ros.org/wiki/grasping_msgs
+Standards-Version: 3.9.2
+
+Package: ros-foxy-grasping-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-foxy-geometry-msgs, ros-foxy-moveit-msgs, ros-foxy-rosidl-default-runtime, ros-foxy-sensor-msgs, ros-foxy-shape-msgs, ros-foxy-ros-workspace
+Description: Messages for describing objects and how to grasp them.
