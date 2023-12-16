@@ -1,0 +1,12 @@
+Source: ros-iron-grasping-msgs
+Section: misc
+Priority: optional
+Maintainer: Michael Ferguson <mfergs7@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-iron-ament-cmake, ros-iron-geometry-msgs, ros-iron-moveit-msgs, ros-iron-rosidl-default-generators, ros-iron-sensor-msgs, ros-iron-shape-msgs, ros-iron-ros-workspace, ros-iron-rosidl-typesupport-fastrtps-c, ros-iron-rosidl-typesupport-fastrtps-cpp
+Homepage: http://ros.org/wiki/grasping_msgs
+Standards-Version: 3.9.2
+
+Package: ros-iron-grasping-msgs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-iron-geometry-msgs, ros-iron-moveit-msgs, ros-iron-rosidl-default-runtime, ros-iron-sensor-msgs, ros-iron-shape-msgs, ros-iron-ros-workspace
+Description: Messages for describing objects and how to grasp them.
