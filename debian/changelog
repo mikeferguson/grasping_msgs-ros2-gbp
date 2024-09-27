@@ -1,0 +1,32 @@
+ros-jazzy-grasping-msgs (0.5.0-1noble) noble; urgency=high
+
+  * Missing dependency (on std_msgs) (#4 <https://github.com/mikeferguson/grasping_msgs/issues/4>)
+    msg/Object.msg depends on std_msgs but it's missing in the dependency chain.
+  * add license and readme files
+  * Contributors: Isaac Saito, Michael Ferguson
+
+ -- Michael Ferguson <mfergs7@gmail.com>  Thu, 26 Sep 2024 04:00:00 -0000
+
+ros-jazzy-grasping-msgs (0.4.0-1noble) noble; urgency=high
+
+  * initial port to ROS2
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mfergs7@gmail.com>  Tue, 05 Jan 2021 05:00:00 -0000
+
+ros-jazzy-grasping-msgs (0.3.1-1noble) noble; urgency=high
+
+  * update email
+  * update description in package.xml
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mfergs7@gmail.com>  Sun, 02 Nov 2014 04:00:00 -0000
+
+ros-jazzy-grasping-msgs (0.3.0-1noble) noble; urgency=high
+
+  * prepare public release
+  * Contributors: Michael Ferguson
+
+ -- Michael Ferguson <mfergs7@gmail.com>  Sat, 07 Jun 2014 04:00:00 -0000
+
+
